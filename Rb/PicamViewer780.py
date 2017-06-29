@@ -19,7 +19,7 @@ import collections
 
 #pg.setConfigOptions(useOpenGL=True)
 # Set http path to the Raspberry Pi you have
-URL='http://192.168.1.130/html/cam.jpg'
+URL='http://128.104.162.15:10000/html/cam.jpg'
 interval=30 # Initial time interval to request image from Raspberry pi in millisecond. Interval will be automatically adjusted.
 app = QtGui.QApplication([])
 
